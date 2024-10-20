@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edbfea;
+    color: #333;
+    background: url('farm.jpg.avif') no-repeat center center/cover;
+}
+
+header {
+    background-color: #97a99b;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav h1 {
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background: #e2f3e9;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #344f0e;
+}
+
+.container {
+    padding: 20px;
+}
+
+.overview {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: rgb(184, 230, 220);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.details div {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #28a745;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

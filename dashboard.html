@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transparent Farm Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 style="text-align: center; color: red;">Farm Management Dashboard</h1>
+       
+            <ul>
+                <li></li><a href="index.html">Home</a></li>
+                <li></li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Overview</h2>
+        <div class="overview">
+            <div class="card">
+                <h3>  Total Crops</h3>
+                <p id="totalCrops">300</p>
+            </div>
+            <div class="card">
+                <h3>Livestock Count</h3>
+                <p id="livestockCount">50</p>
+            </div>
+            <div class="card">
+                <h3> Weather</h3>
+                <p id="weatherCondition">Sunny, 25°C</p>
+            </div>
+        </div>
+
+        <section class="details">
+            <div class="field-monitoring">
+                <h3>Field Monitoring</h3>
+                <div id="fieldData">Loading field data...</div>
+                <button id="refreshFieldBtn" class="btn">Refresh Field Data</button>
+            </div>
+
+            <div class="livestock-management">
+                <h3>Livestock Management</h3>
+                <div id="livestockData">Loading livestock data...</div>
+                <button id="refreshFieldBtn" class="btn">Refresh Field Data</button>
+            </div>
+
+            <div class="financial-overview">
+                <h3>Financial Overview</h3>
+                <div id="financialData">Loading financial data...</div>
+                <button id="refreshFieldBtn" class="btn">Refresh Field Data</button>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Farm Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
